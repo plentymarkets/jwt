@@ -4,7 +4,6 @@ declare(strict_types=1);
 namespace Lcobucci\JWT\Signer;
 
 use Lcobucci\JWT\Signer;
-use OpenSSLAsymmetricKey;
 
 use function array_key_exists;
 use function assert;

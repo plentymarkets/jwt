@@ -19,7 +19,7 @@ final class Parser implements ParserInterface
 {
     private const MICROSECOND_PRECISION = 6;
 
-    private Decoder $decoder;
+    private $decoder;
 
     public function __construct(Decoder $decoder)
     {
