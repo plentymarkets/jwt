@@ -57,6 +57,7 @@
             "Lcobucci\\JWT\\FunctionalTests\\": "test/functional"
         }
     },
+    "minimum-stability": "dev",
     "repositories": [
         {
           "type": "github",
