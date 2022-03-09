@@ -117,7 +117,9 @@ abstract class OpenSSL implements Signer
             return;
         }
 
-        openssl_free_key($key); // Deprecated and no longer necessary as of PHP >= 8.0
+        if (phpversion() < 8) {
+            openssl_free_key($key);
+        } // Deprecated and no longer necessary as of PHP >= 8.0
     }
 
     /**
